@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Autobio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: url('https://media.tenor.com/3e9e4e5f5e4AAAAC/obito-uchiha-orange-mask.gif') no-repeat center center fixed; /* Default (Portrait) */
+            background-size: cover; /* Portrait stays zoomed for full coverage */
+            color: #4e342e;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Landscape Background */
+        @media (orientation: landscape) {
+            body {
+                background: url('https://media.tenor.com/NGkUY_RH2rEAAAAM/raining-itachi.gif') no-repeat center center fixed;
+                background-size: contain; /* Shows full GIF, not too zoomed */
+            }
+        }
+
+        /* Portrait Background */
+        @media (orientation: portrait) {
+            body {
+                background: url('https://media.tenor.com/GPguTxweWMQAAAAM/%D0%B8%D1%82%D0%B0%D1%87%D0%B8.gif') no-repeat center center fixed;
+                background-size: cover;
+            }
+        }
+
+        .letter {
+            max-width: 650px;
+            margin: 30px auto;
+            padding: 50px 60px;
+            background-color: rgba(224, 213, 192, 0.8);
+            border: 1px solid #a38f6f;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: auto;
+        }
+
+        .paper-lines {
+            background-image: repeating-linear-gradient(
+                to bottom,
+                transparent,
+                transparent 29px,
+                #c9bfaa 29px,
+                #c9bfaa 30px
+            );
+            background-position-y: 0;
+            padding: 0;
+        }
+
+        .content {
+            text-align: justify;
+            margin: 0;
+            padding: 0;
+            line-height: 30px;
+        }
+
+        .content p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .signature {
+            font-family: 'Brush Script MT', 'Comic Sans MS', cursive;
+            font-size: 1.2em;
+            text-align: right;
+            margin-top: 40px;
+            color: #5d4037;
+            line-height: 30px;
+        }
+
+        .ink-blot {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: radial-gradient(circle, rgba(94,70,44,0.1) 0%, rgba(94,70,44,0.05) 70%, transparent 90%);
+            opacity: 0.3;
+            z-index: -1;
+        }
+        .blot-1 { top: 15%; right: 10%; }
+        .blot-2 { bottom: 20%; left: 8%; transform: rotate(30deg); }
+
+        /* Audio styling */
+        audio {
+            display: none;
+        }
+
+        /* Enhanced Responsiveness */
+        @media (max-width: 768px) {
+            .letter {
+                padding: 30px 40px;
+            }
+            .paper-lines {
+                background-position-y: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .letter {
+                padding: 20px 20px;
+            }
+            .content {
+                font-size: 14px;
+                line-height: 28px;
+            }
+            .paper-lines {
+                background-image: repeating-linear-gradient(
+                    to bottom,
+                    transparent,
+                    transparent 27px,
+                    #c9bfaa 27px,
+                    #c9bfaa 28px
+                );
+            }
+            .signature {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .letter {
+                padding: 15px 10px;
+            }
+            .content {
+                font-size: 12px;
+                line-height: 24px;
+            }
+            .paper-lines {
+                background-image: repeating-linear-gradient(
+                    to bottom,
+                    transparent,
+                    transparent 23px,
+                    #c9bfaa 23px,
+                    #c9bfaa 24px
+                );
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="letter">
+        <div class="ink-blot blot-1"></div>
+        <div class="ink-blot blot-2"></div>
+        
+        <div class="paper-lines">
+            <div class="content">
+                <p>I introduce My self, I am Carl Justin Clamor born in Kawit Cavite in September 17 2004, Now currently I am 20 Years old, In 20 years of existence I've gain a lot of knowledge especially about Life, Because I've done a lot of mistakes so I take advantage of it, I apply it to My Self to become a man not kid or a little boy.</p>
+                <br>
+                <p>Ok fast forward, When I graduated grade 6 in Kawit,Cavite and finally excited I become a Junior High School (Grade 7) I thought I was cool, I mean I thought its happy but its not, I've become worse kid that time, I do smoke because of influence of friends and I always do cutting classes to play a computer game, And worse because I always demand for my daily allowance cost of 100 pesos per day, And I stop that year because I always get in trouble because of my friends that I thougt I was cool and right.</p>
+                <br>
+                <p>So after my Grade 7 in Kawit,Cavite I got transfer here in Gentri,Cavite and that time I met my friends now A bestfriends that very truly to me, And the first day I got cutt classes nothing changes, But when I saw my adviser to call the Mother of my classmates that got cutt classes I realized I dont want to get In trouble again, I am the kind of person very weak in class or Im not good at class because I always nervous in the front of the classroom, And that time I maybe the worse as always I got influence again, I thought It was another friend but not I smoke weeds worse than ever and I now I felt regret.</p>
+                <br>
+                <p>After grade 8 the pandemic days, Now I missed those days like playing games,watching Tv and fast forward, When I was grade 11 I met a lot of friends, On the first day of creating a Gc's I am the center of my classmates I mean the center of friends like that, Because I create a lot of Gc's, I am very happy that time because I thought I was stuck in the past like always got influence but not that time, And that year I met my Live in Partner right now, A long story but I did not regret about what happen, We are the same grade level that time but not the same section a confidential so Im not tell what happen, And lastly we become Grade 12, That time a lot of 'Bullies' even my old friend in G11 are very umh like(Plastik), That time I am full of anger like I want to get revenge like in my mind I alwayds killing, That time I want to get revenge but I realize when I do that we are not able to Graduate Senior High School, Someday maybe the karma you know.</p>
+                <br>
+                <p>Before end I tell my Hobby, My Hobby are gaining knowledge about Web Hacking, Now I hack 2 Govenrments Website I Hack thru Sql Injection attack and I properly reported the vulnerabilities I found but no response.</p>
+
+                <div class="signature">
+                    cyren the lover boy
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Looping Audio -->
+    <audio autoplay loop>
+        <source src="music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
